@@ -1,1 +1,0 @@
-Criacao de um novo repositório no git.
