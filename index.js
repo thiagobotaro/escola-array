@@ -1,21 +1,7 @@
-const notas1 = [10 , 6.5, 8 ,7.5]
-const notas2 = [9  , 6  , 6]
-const notas3 = [8.5, 9.5]
- 
-const notasGerais = [notas1, notas2, notas3]
- 
-let somaDasNotas = 0;
-let quantidadeNotas = 0;
+numerosPares = [];
 
-for (let i = 0; i < notasGerais.length; i++){
-for (let j = 0; j < notasGerais[i].length; j++){
- somaDasNotas += notasGerais[i][j];
- quantidadeNotas++;
-}
+for (let i = 0; i <= 1000; i += 2){
+    numerosPares.push(i);
 }
 
-let media = somaDasNotas / quantidadeNotas;
-
-console.log(somaDasNotas);
-console.log(quantidadeNotas);
-console.log(media.toFixed(2));
+console.log(numerosPares);
